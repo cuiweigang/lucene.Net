@@ -1,0 +1,203 @@
+2014-09-03 13:30:46,053 [DefaultQuartzScheduler_Worker-9] DEBUG WebApplication1.IndexJob - 开始爬编号为923的帖子
+2014-09-03 13:30:47,078 [DefaultQuartzScheduler_Worker-9] ERROR WebApplication1.IndexJob - 爬编号为923的帖子发生异常
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8080
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadString(Uri address)
+   在 System.Net.WebClient.DownloadString(String address)
+   在 WebApplication1.IndexJob.Execute(JobExecutionContext context) 位置 e:\GitHub\Lunce.Net\WebApplication1\IndexJob.cs:行号 71
+2014-09-03 13:30:47,079 [DefaultQuartzScheduler_Worker-9] DEBUG WebApplication1.IndexJob - 开始爬编号为924的帖子
+2014-09-03 13:30:48,079 [DefaultQuartzScheduler_Worker-9] ERROR WebApplication1.IndexJob - 爬编号为924的帖子发生异常
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8080
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadString(Uri address)
+   在 System.Net.WebClient.DownloadString(String address)
+   在 WebApplication1.IndexJob.Execute(JobExecutionContext context) 位置 e:\GitHub\Lunce.Net\WebApplication1\IndexJob.cs:行号 71
+2014-09-03 13:30:48,079 [DefaultQuartzScheduler_Worker-9] DEBUG WebApplication1.IndexJob - 开始爬编号为925的帖子
+2014-09-03 13:30:49,080 [DefaultQuartzScheduler_Worker-9] ERROR WebApplication1.IndexJob - 爬编号为925的帖子发生异常
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8080
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadString(Uri address)
+   在 System.Net.WebClient.DownloadString(String address)
+   在 WebApplication1.IndexJob.Execute(JobExecutionContext context) 位置 e:\GitHub\Lunce.Net\WebApplication1\IndexJob.cs:行号 71
+2014-09-03 13:30:49,081 [DefaultQuartzScheduler_Worker-9] DEBUG WebApplication1.IndexJob - 开始爬编号为926的帖子
+2014-09-03 13:30:50,081 [DefaultQuartzScheduler_Worker-9] ERROR WebApplication1.IndexJob - 爬编号为926的帖子发生异常
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8080
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadString(Uri address)
+   在 System.Net.WebClient.DownloadString(String address)
+   在 WebApplication1.IndexJob.Execute(JobExecutionContext context) 位置 e:\GitHub\Lunce.Net\WebApplication1\IndexJob.cs:行号 71
+2014-09-03 13:30:50,081 [DefaultQuartzScheduler_Worker-9] DEBUG WebApplication1.IndexJob - 开始爬编号为927的帖子
+2014-09-03 13:30:51,082 [DefaultQuartzScheduler_Worker-9] ERROR WebApplication1.IndexJob - 爬编号为927的帖子发生异常
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8080
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadString(Uri address)
+   在 System.Net.WebClient.DownloadString(String address)
+   在 WebApplication1.IndexJob.Execute(JobExecutionContext context) 位置 e:\GitHub\Lunce.Net\WebApplication1\IndexJob.cs:行号 71
+2014-09-03 13:30:51,083 [DefaultQuartzScheduler_Worker-9] DEBUG WebApplication1.IndexJob - 开始爬编号为928的帖子
+2014-09-03 13:30:52,083 [DefaultQuartzScheduler_Worker-9] ERROR WebApplication1.IndexJob - 爬编号为928的帖子发生异常
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8080
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadString(Uri address)
+   在 System.Net.WebClient.DownloadString(String address)
+   在 WebApplication1.IndexJob.Execute(JobExecutionContext context) 位置 e:\GitHub\Lunce.Net\WebApplication1\IndexJob.cs:行号 71
+2014-09-03 13:30:52,083 [DefaultQuartzScheduler_Worker-9] DEBUG WebApplication1.IndexJob - 开始爬编号为929的帖子
+2014-09-03 13:30:53,084 [DefaultQuartzScheduler_Worker-9] ERROR WebApplication1.IndexJob - 爬编号为929的帖子发生异常
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8080
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadString(Uri address)
+   在 System.Net.WebClient.DownloadString(String address)
+   在 WebApplication1.IndexJob.Execute(JobExecutionContext context) 位置 e:\GitHub\Lunce.Net\WebApplication1\IndexJob.cs:行号 71
+2014-09-03 13:30:53,085 [DefaultQuartzScheduler_Worker-9] DEBUG WebApplication1.IndexJob - 开始爬编号为930的帖子
+2014-09-03 13:30:54,085 [DefaultQuartzScheduler_Worker-9] ERROR WebApplication1.IndexJob - 爬编号为930的帖子发生异常
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8080
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadString(Uri address)
+   在 System.Net.WebClient.DownloadString(String address)
+   在 WebApplication1.IndexJob.Execute(JobExecutionContext context) 位置 e:\GitHub\Lunce.Net\WebApplication1\IndexJob.cs:行号 71
+2014-09-03 13:30:54,086 [DefaultQuartzScheduler_Worker-9] DEBUG WebApplication1.IndexJob - 开始爬编号为931的帖子
+2014-09-03 13:30:55,086 [DefaultQuartzScheduler_Worker-9] ERROR WebApplication1.IndexJob - 爬编号为931的帖子发生异常
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8080
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadString(Uri address)
+   在 System.Net.WebClient.DownloadString(String address)
+   在 WebApplication1.IndexJob.Execute(JobExecutionContext context) 位置 e:\GitHub\Lunce.Net\WebApplication1\IndexJob.cs:行号 71
+2014-09-03 13:30:55,086 [DefaultQuartzScheduler_Worker-9] DEBUG WebApplication1.IndexJob - 开始爬编号为932的帖子
+2014-09-03 13:31:01,255 [DefaultQuartzScheduler_Worker-1] DEBUG WebApplication1.IndexJob - 开始创建索引，索引目录：E:\GitHub\Lunce.Net\WebApplication1\Index
+2014-09-03 13:31:01,281 [DefaultQuartzScheduler_Worker-1] DEBUG WebApplication1.IndexJob - 索引目录存在状态：True
+2014-09-03 13:31:01,300 [DefaultQuartzScheduler_Worker-1] DEBUG WebApplication1.IndexJob - 开始爬文章
+2014-09-03 13:31:01,345 [DefaultQuartzScheduler_Worker-1] DEBUG WebApplication1.IndexJob - 开始爬编号为900的帖子
+2014-09-03 13:31:02,625 [DefaultQuartzScheduler_Worker-1] ERROR WebApplication1.IndexJob - 爬编号为900的帖子发生异常
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8080
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadString(Uri address)
+   在 System.Net.WebClient.DownloadString(String address)
+   在 WebApplication1.IndexJob.Execute(JobExecutionContext context) 位置 e:\GitHub\Lunce.Net\WebApplication1\IndexJob.cs:行号 71
+2014-09-03 13:31:02,632 [DefaultQuartzScheduler_Worker-1] DEBUG WebApplication1.IndexJob - 开始爬编号为901的帖子
+2014-09-03 13:31:03,632 [DefaultQuartzScheduler_Worker-1] ERROR WebApplication1.IndexJob - 爬编号为901的帖子发生异常
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8080
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadString(Uri address)
+   在 System.Net.WebClient.DownloadString(String address)
+   在 WebApplication1.IndexJob.Execute(JobExecutionContext context) 位置 e:\GitHub\Lunce.Net\WebApplication1\IndexJob.cs:行号 71
+2014-09-03 13:31:03,633 [DefaultQuartzScheduler_Worker-1] DEBUG WebApplication1.IndexJob - 开始爬编号为902的帖子
+2014-09-03 13:31:04,633 [DefaultQuartzScheduler_Worker-1] ERROR WebApplication1.IndexJob - 爬编号为902的帖子发生异常
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8080
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadString(Uri address)
+   在 System.Net.WebClient.DownloadString(String address)
+   在 WebApplication1.IndexJob.Execute(JobExecutionContext context) 位置 e:\GitHub\Lunce.Net\WebApplication1\IndexJob.cs:行号 71
+2014-09-03 13:31:04,634 [DefaultQuartzScheduler_Worker-1] DEBUG WebApplication1.IndexJob - 开始爬编号为903的帖子
+2014-09-03 13:31:05,635 [DefaultQuartzScheduler_Worker-1] ERROR WebApplication1.IndexJob - 爬编号为903的帖子发生异常
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8080
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadString(Uri address)
+   在 System.Net.WebClient.DownloadString(String address)
+   在 WebApplication1.IndexJob.Execute(JobExecutionContext context) 位置 e:\GitHub\Lunce.Net\WebApplication1\IndexJob.cs:行号 71
+2014-09-03 13:31:05,636 [DefaultQuartzScheduler_Worker-1] DEBUG WebApplication1.IndexJob - 开始爬编号为904的帖子
+2014-09-03 13:31:06,636 [DefaultQuartzScheduler_Worker-1] ERROR WebApplication1.IndexJob - 爬编号为904的帖子发生异常
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8080
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadString(Uri address)
+   在 System.Net.WebClient.DownloadString(String address)
+   在 WebApplication1.IndexJob.Execute(JobExecutionContext context) 位置 e:\GitHub\Lunce.Net\WebApplication1\IndexJob.cs:行号 71
+2014-09-03 13:31:06,636 [DefaultQuartzScheduler_Worker-1] DEBUG WebApplication1.IndexJob - 开始爬编号为905的帖子
+2014-09-03 13:31:07,637 [DefaultQuartzScheduler_Worker-1] ERROR WebApplication1.IndexJob - 爬编号为905的帖子发生异常
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8080
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadString(Uri address)
+   在 System.Net.WebClient.DownloadString(String address)
+   在 WebApplication1.IndexJob.Execute(JobExecutionContext context) 位置 e:\GitHub\Lunce.Net\WebApplication1\IndexJob.cs:行号 71
+2014-09-03 13:31:07,638 [DefaultQuartzScheduler_Worker-1] DEBUG WebApplication1.IndexJob - 开始爬编号为906的帖子
+2014-09-03 13:31:08,638 [DefaultQuartzScheduler_Worker-1] ERROR WebApplication1.IndexJob - 爬编号为906的帖子发生异常
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8080
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadString(Uri address)
+   在 System.Net.WebClient.DownloadString(String address)
+   在 WebApplication1.IndexJob.Execute(JobExecutionContext context) 位置 e:\GitHub\Lunce.Net\WebApplication1\IndexJob.cs:行号 71
+2014-09-03 13:31:08,639 [DefaultQuartzScheduler_Worker-1] DEBUG WebApplication1.IndexJob - 开始爬编号为907的帖子
+2014-09-03 13:31:09,638 [DefaultQuartzScheduler_Worker-1] ERROR WebApplication1.IndexJob - 爬编号为907的帖子发生异常
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8080
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadString(Uri address)
+   在 System.Net.WebClient.DownloadString(String address)
+   在 WebApplication1.IndexJob.Execute(JobExecutionContext context) 位置 e:\GitHub\Lunce.Net\WebApplication1\IndexJob.cs:行号 71
+2014-09-03 13:31:09,639 [DefaultQuartzScheduler_Worker-1] DEBUG WebApplication1.IndexJob - 开始爬编号为908的帖子
+2014-09-03 13:31:10,634 [DefaultQuartzScheduler_Worker-1] ERROR WebApplication1.IndexJob - 爬编号为908的帖子发生异常
+System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8080
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.InternalConnect(EndPoint remoteEP)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   在 System.Net.WebClient.DownloadString(Uri address)
+   在 System.Net.WebClient.DownloadString(String address)
+   在 WebApplication1.IndexJob.Execute(JobExecutionContext context) 位置 e:\GitHub\Lunce.Net\WebApplication1\IndexJob.cs:行号 71
+2014-09-03 13:31:10,635 [DefaultQuartzScheduler_Worker-1] DEBUG WebApplication1.IndexJob - 开始爬编号为909的帖子

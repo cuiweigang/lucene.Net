@@ -1,0 +1,16 @@
+2010-10-05 11:00:05,996 [10] DEBUG Log4NetTest.Program - 我的第一条日志
+2010-10-05 11:03:00,856 [10] DEBUG Log4NetTest.Person - 我的第一条日志
+2010-10-05 11:06:03,231 [10] DEBUG Log4NetTest.Program - 我的第一条日志
+2010-10-05 11:06:03,231 [10] WARN  Log4NetTest.Program - 程序连接时间过长
+2010-10-05 11:06:03,231 [10] WARN  Log4NetTest.Program - 用户尝试进行XSS攻击
+2010-10-05 11:06:09,059 [10] ERROR Log4NetTest.Program - 数据转换出错，用户输入：a
+2010-10-05 11:06:54,277 [10] DEBUG Log4NetTest.Program - 我的第一条日志
+2010-10-05 11:06:54,293 [10] WARN  Log4NetTest.Program - 程序连接时间过长
+2010-10-05 11:06:54,293 [10] WARN  Log4NetTest.Program - 用户尝试进行XSS攻击
+2010-10-05 11:06:55,168 [10] ERROR Log4NetTest.Program - 数据转换出错，用户输入：asdfasdfasdf
+2010-10-05 11:06:55,168 [10] ERROR Log4NetTest.Program - 数据转换出错，用户输入：asdfasdfasdf
+System.FormatException: 输入字符串的格式不正确。
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   在 System.Convert.ToInt32(String value)
+   在 Log4NetTest.Program.Main(String[] args) 位置 D:\我的文档\livemesh\如鹏\备课\dotnet\班级信息\2010年7月10日机工班\codes\站内搜索\WebApplication1\Log4NetTest\Program.cs:行号 22

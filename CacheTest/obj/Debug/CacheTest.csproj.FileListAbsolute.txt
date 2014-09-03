@@ -1,0 +1,10 @@
+D:\我的文档\livemesh\如鹏\备课\dotnet\班级信息\2010年7月10日机工班\codes\站内搜索\WebApplication1\CacheTest\bin\CacheTest.dll
+D:\我的文档\livemesh\如鹏\备课\dotnet\班级信息\2010年7月10日机工班\codes\站内搜索\WebApplication1\CacheTest\bin\CacheTest.pdb
+D:\我的文档\livemesh\如鹏\备课\dotnet\班级信息\2010年7月10日机工班\codes\站内搜索\WebApplication1\CacheTest\obj\Debug\ResolveAssemblyReference.cache
+D:\我的文档\livemesh\如鹏\备课\dotnet\班级信息\2010年7月10日机工班\codes\站内搜索\WebApplication1\CacheTest\obj\Debug\CacheTest.dll
+D:\我的文档\livemesh\如鹏\备课\dotnet\班级信息\2010年7月10日机工班\codes\站内搜索\WebApplication1\CacheTest\obj\Debug\CacheTest.pdb
+E:\GitHub\Lunce.Net\CacheTest\bin\CacheTest.dll
+E:\GitHub\Lunce.Net\CacheTest\bin\CacheTest.pdb
+E:\GitHub\Lunce.Net\CacheTest\obj\Debug\CacheTest.csprojResolveAssemblyReference.cache
+E:\GitHub\Lunce.Net\CacheTest\obj\Debug\CacheTest.dll
+E:\GitHub\Lunce.Net\CacheTest\obj\Debug\CacheTest.pdb

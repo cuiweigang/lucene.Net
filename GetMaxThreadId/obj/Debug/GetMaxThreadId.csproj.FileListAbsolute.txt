@@ -1,0 +1,10 @@
+D:\我的文档\livemesh\如鹏\备课\dotnet\班级信息\2010年7月10日机工班\codes\站内搜索\WebApplication1\GetMaxThreadId\bin\Debug\GetMaxThreadId.exe
+D:\我的文档\livemesh\如鹏\备课\dotnet\班级信息\2010年7月10日机工班\codes\站内搜索\WebApplication1\GetMaxThreadId\bin\Debug\GetMaxThreadId.pdb
+D:\我的文档\livemesh\如鹏\备课\dotnet\班级信息\2010年7月10日机工班\codes\站内搜索\WebApplication1\GetMaxThreadId\obj\Debug\ResolveAssemblyReference.cache
+D:\我的文档\livemesh\如鹏\备课\dotnet\班级信息\2010年7月10日机工班\codes\站内搜索\WebApplication1\GetMaxThreadId\obj\Debug\GetMaxThreadId.exe
+D:\我的文档\livemesh\如鹏\备课\dotnet\班级信息\2010年7月10日机工班\codes\站内搜索\WebApplication1\GetMaxThreadId\obj\Debug\GetMaxThreadId.pdb
+E:\GitHub\Lunce.Net\GetMaxThreadId\bin\Debug\GetMaxThreadId.exe
+E:\GitHub\Lunce.Net\GetMaxThreadId\bin\Debug\GetMaxThreadId.pdb
+E:\GitHub\Lunce.Net\GetMaxThreadId\obj\Debug\GetMaxThreadId.csprojResolveAssemblyReference.cache
+E:\GitHub\Lunce.Net\GetMaxThreadId\obj\Debug\GetMaxThreadId.exe
+E:\GitHub\Lunce.Net\GetMaxThreadId\obj\Debug\GetMaxThreadId.pdb

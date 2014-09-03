@@ -1,0 +1,16 @@
+D:\我的文档\livemesh\如鹏\备课\dotnet\班级信息\2010年7月10日机工班\codes\站内搜索\WebApplication1\Log4NetTest\bin\Debug\Log4NetTest.exe.config
+D:\我的文档\livemesh\如鹏\备课\dotnet\班级信息\2010年7月10日机工班\codes\站内搜索\WebApplication1\Log4NetTest\bin\Debug\Log4NetTest.exe
+D:\我的文档\livemesh\如鹏\备课\dotnet\班级信息\2010年7月10日机工班\codes\站内搜索\WebApplication1\Log4NetTest\bin\Debug\Log4NetTest.pdb
+D:\我的文档\livemesh\如鹏\备课\dotnet\班级信息\2010年7月10日机工班\codes\站内搜索\WebApplication1\Log4NetTest\bin\Debug\log4net.dll
+D:\我的文档\livemesh\如鹏\备课\dotnet\班级信息\2010年7月10日机工班\codes\站内搜索\WebApplication1\Log4NetTest\bin\Debug\log4net.xml
+D:\我的文档\livemesh\如鹏\备课\dotnet\班级信息\2010年7月10日机工班\codes\站内搜索\WebApplication1\Log4NetTest\obj\Debug\ResolveAssemblyReference.cache
+D:\我的文档\livemesh\如鹏\备课\dotnet\班级信息\2010年7月10日机工班\codes\站内搜索\WebApplication1\Log4NetTest\obj\Debug\Log4NetTest.exe
+D:\我的文档\livemesh\如鹏\备课\dotnet\班级信息\2010年7月10日机工班\codes\站内搜索\WebApplication1\Log4NetTest\obj\Debug\Log4NetTest.pdb
+E:\GitHub\Lunce.Net\Log4NetTest\bin\Debug\Log4NetTest.exe.config
+E:\GitHub\Lunce.Net\Log4NetTest\bin\Debug\Log4NetTest.exe
+E:\GitHub\Lunce.Net\Log4NetTest\bin\Debug\Log4NetTest.pdb
+E:\GitHub\Lunce.Net\Log4NetTest\bin\Debug\log4net.dll
+E:\GitHub\Lunce.Net\Log4NetTest\bin\Debug\log4net.xml
+E:\GitHub\Lunce.Net\Log4NetTest\obj\Debug\Log4NetTest.csprojResolveAssemblyReference.cache
+E:\GitHub\Lunce.Net\Log4NetTest\obj\Debug\Log4NetTest.exe
+E:\GitHub\Lunce.Net\Log4NetTest\obj\Debug\Log4NetTest.pdb
