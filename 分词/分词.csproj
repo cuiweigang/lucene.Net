@@ -81,7 +81,7 @@
   <ItemGroup>
     <Compile Include="CJKAnalyzer.cs" />
     <Compile Include="CJKTokenizer.cs" />
-    <Compile Include="IndexWrite.cs" />
+    <Compile Include="Write.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

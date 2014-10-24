@@ -17,73 +17,85 @@ using mshtml;
 
 namespace 分词
 {
+    using Lucene.Net.QueryParsers;
+
     class Program
     {
+        static string indexPath = AppDomain.CurrentDomain.BaseDirectory + "/Lucene.Net";
+
         static void Main(string[] args)
         {
-            // IndexWrite.Write();
+            BuildIndex();
 
-            //Console.ReadKey();
+            FSDirectory directiory = FSDirectory.Open(new DirectoryInfo(indexPath), new NativeFSLockFactory());
+            IndexReader reader = IndexReader.Open(directiory, true);
+            IndexSearcher searcher = new IndexSearcher(reader);//搜索者
+            PhraseQuery query = new PhraseQuery();//查询条件
 
-            Searcher();
+            Analyzer analyzer = new PanGuAnalyzer();//盘古分词检索
+            TokenStream tokenStream = analyzer.TokenStream("", new StringReader("开发的程序"));
+            Lucene.Net.Analysis.Token token = null;
+            while ((token = tokenStream.Next()) != null)
+            {
+                query.Add(new Term("content", token.Term()));
+                Console.WriteLine("分词:" + token.Term());
+            }
 
-            // HighLight();
+            TopScoreDocCollector collector = TopScoreDocCollector.create(1000, true);//创建结果收集器（容器），最多放1000条数据
+            searcher.Search(query, collector);
+            Console.WriteLine(collector.GetTotalHits());//结果条数
+
+            TopDocs docs = collector.TopDocs();
+
+            foreach (var doc in docs.scoreDocs)
+            {
+                Document document = searcher.Doc(doc.doc);//根据docId拿到document
+                Console.WriteLine("{0}:{1}", document.Get("number"), document.Get("content"));
+            }
 
             Console.ReadKey();
         }
 
-        private static void HighLight()
+        private static void BuildIndex()
         {
-            //创建HTMLFormatter,参数为高亮单词的前后缀 
-            PanGu.HighLight.SimpleHTMLFormatter simpleHTMLFormatter =
-                   new PanGu.HighLight.SimpleHTMLFormatter("<font color=\"red\">", "</font>");
-            //创建 Highlighter ，输入HTMLFormatter 和 盘古分词对象Semgent 
-            PanGu.HighLight.Highlighter highlighter =
-                            new PanGu.HighLight.Highlighter(simpleHTMLFormatter,
-                            new Segment());
-            //设置每个摘要段的字符数 
-            highlighter.FragmentSize = 50;
-            //获取最匹配的摘要段 
-            String s = highlighter.GetBestFragment("大学生就业", "我是大学生，我要就业啦");
-            Console.WriteLine(s);
-        }
-
-        private static void Searcher()
-        {
-            string indexPath = "d:/Lucene.Net";
             FSDirectory directory = FSDirectory.Open(new DirectoryInfo(indexPath), new NativeFSLockFactory());
-            IndexReader indexReader = IndexReader.Open(directory, true);
-            IndexSearcher searcher = new IndexSearcher(indexReader);//搜索者
-            PhraseQuery query = new PhraseQuery();//查询条件
-
-            // 分词
-            Analyzer analyzer = new PanGuAnalyzer();//盘古分词检索
-            TokenStream tokenStream = analyzer.TokenStream("", new StringReader("快店送红包"));
-            Token token = null;
-            while ((token = tokenStream.Next()) != null)
+            bool isUpdate = IndexReader.IndexExists(directory);
+            if (isUpdate)
             {
-                query.Add(new Term("body", token.Term()));
-                Console.WriteLine("分词" + token.Term());
+                //如果索引目录被锁定（比如索引过程中程序异常退出），则首先解锁
+                if (IndexWriter.IsLocked(directory))
+                {
+                    IndexWriter.Unlock(directory);
+                }
             }
 
-            query.SetSlop(100);//词之间距离不超过100个单词就可以匹配
-            TopScoreDocCollector collector = TopScoreDocCollector.create(1000, true);//创建结果收集器（容器），最多放1000条数据
-            searcher.Search(query, null, collector);//开始使用query条件搜索，搜索结果放入collector中
-            Console.WriteLine(collector.GetTotalHits());//结果条数
+            IndexWriter writer = new IndexWriter(directory, new PanGuAnalyzer(), !isUpdate, Lucene.Net.Index.IndexWriter.MaxFieldLength.UNLIMITED);
 
-            TopDocs topDocs = collector.TopDocs();//得到结果
+            Document document1 = new Document();
+            document1.Add(new Field("number", "1", Field.Store.YES, Field.Index.ANALYZED));
+            document1.Add(
+                new Field(
+                    "content",
+                    "NLuke是参照Luke(lukeall)的功能开发的Lucene索引管理工具",
+                    Field.Store.YES,
+                    Field.Index.ANALYZED,
+                    Field.TermVector.WITH_POSITIONS_OFFSETS));
 
-            foreach (ScoreDoc scoreDoc in topDocs.scoreDocs)
-            {
-                int docId = scoreDoc.doc;//拿到搜到的文档的id（Lucene内部分配的id），结果中不是保存着Document，为的是提高效率、降低资源占用
-                Document document = searcher.Doc(docId);//根据docId拿到document
-                string num = document.Get("number");
-                string body = document.Get("body");
-                Console.WriteLine("文件名：" + num + ".txt，内容：" + body);
-                Console.WriteLine("------------------------------------------------");
-            }
-            searcher.Close();
-            indexReader.Close();
+            writer.AddDocument(document1); //Insert into Index(number,body) values(@number,@body)
+
+
+            Document document2 = new Document();
+            document2.Add(new Field("number", "2", Field.Store.YES, Field.Index.ANALYZED));
+            document2.Add(
+                new Field(
+                    "content",
+                    "可以根据分词器和选择的字段解析为表达式显示在2区,开发的程序",
+                    Field.Store.YES,
+                    Field.Index.ANALYZED,
+                    Field.TermVector.WITH_POSITIONS_OFFSETS));
+
+            writer.AddDocument(document2); //Insert into Index(number,body) values(@number,@body)
+            writer.Close();
             directory.Close();
         }
     }
